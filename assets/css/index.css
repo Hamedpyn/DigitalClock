@@ -1,19 +1,15 @@
-*,
-*:before,
-*:after{
+*,*:before,*:after{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-body{
+}body{
     height: 100vh;
     background: linear-gradient(
         135deg,
         #8052ec,
         #d161ff
     );
-}
-.clock{
+}.clock{
     width: 550px;
     height: 150px;
     position: absolute;
@@ -23,8 +19,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.clock div{
+}.clock div{
     position: relative;
     background-color: #ffffff;
     height: 100%;
@@ -38,8 +33,7 @@ body{
     border-radius: 5px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
     letter-spacing: 3px;
-}
-.clock span{
+}.clock span{
     font-weight: bolder;
     font-size: 60px;
     color: #ffffff;

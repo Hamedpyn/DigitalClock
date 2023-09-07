@@ -6,7 +6,7 @@ let hour = document.querySelector('#hour'),
 
 setInterval(() => {
     // get every hour , minute and second 
-    let nowHour = new Date().getHours()
+    let nowHour = new Date().getHours() + 1
     let nowMinute = new Date().getMinutes()
     let nowSecond = new Date().getSeconds()
 
